@@ -1,0 +1,93 @@
+/* 🔹 Container for inputs + button stacked vertically */
+.inputs-container {
+  display: flex;
+  flex-direction: column;   /* stack vertically */
+  justify-content: flex-start; /* align items to top */
+  align-items: center;     /* inputs full width */  
+  width: 30%;
+  gap: 10px;                /* spacing between inputs and button */
+  padding: 0 20px;
+  box-sizing: border-box;
+   max-width: 400px;   /* optional: limit the max width */
+  margin: 0 auto;     /* centers horizontally */
+
+}
+
+/* 🔹 Inputs (full width) */
+.inputs-container input {
+  padding: 10px; 
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 100%;              /* full width */
+}
+
+/* 🔹 Add Task button */
+.inputs-container button {
+  padding: 10px 15px;
+  background-color: #1cad1c;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  white-space: nowrap;
+  width: 50%;              /* full width button */
+}
+
+.inputs-container button:hover {
+  background-color: #138313;
+}
+
+/* Rest stays the same */
+
+table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #223450;
+  color: white;
+  font-size: 16px;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 10px;
+}
+
+th {
+  background-color: #3a96a4;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #252525;
+}
+
+/* Delete button inside table */
+td button {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+td button:hover {
+  background-color: #ff1a1a;
+}
+
+/* Align delete button left */
+td:last-child {
+  text-align: left;
+}
+
+h1 {
+  text-align: left;
+  color: white;
+  margin-left: 20px;
+}

@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #222;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 40px;
+}
